@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-    SDLC_ENV: "$1"
+    SDLC_ENV: "$4"
     TF_COMMAND: "$2"
     # TF_COMMAND: "apply"
     # TF_COMMAND: "destroy"
