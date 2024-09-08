@@ -6,7 +6,7 @@ env:
     TF_COMMAND: "$2"
     # TF_COMMAND: "apply"
     # TF_COMMAND: "destroy"
-    TERRAFORM_VERSION: "1.9.0"
+    TERRAFORM_VERSION: "1.9.5"
   # Required if you want to retrieve custom environment variables stored in AWS Secrets Manager. Specify a Secrets Manager reference-key using the following pattern:
   # secrets-manager:
   #   TF_CLOUD_TOKEN: "TF_CLOUD_Secret:MY_SECRET_VAR"
