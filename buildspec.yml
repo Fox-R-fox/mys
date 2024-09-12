@@ -2,8 +2,8 @@ version: 0.2
 
 env:
   variables:
-    # SDLC_ENV: "$1"
-    # TF_COMMAND: "$2"
+    SDLC_ENV: "$1"
+    TF_COMMAND: "$2"
     # TF_COMMAND: "apply"
     # TF_COMMAND: "destroy"
     TERRAFORM_VERSION: "1.9.5"
