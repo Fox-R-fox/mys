@@ -32,6 +32,8 @@ phases:
     commands:
       - ls -lrt "$CODEBUILD_SRC_DIR/terraform-manifests"
       - terraform --version
+      - echo $1
+      - echo $SDLC_ENV
       - cd "$CODEBUILD_SRC_DIR/terraform-manifests/$SDLC_ENV"
       # - terraform init -input=false --backend-config=dev.conf
       - terraform init
